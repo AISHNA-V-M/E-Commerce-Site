@@ -459,3 +459,85 @@ color: white;
    border: 1px solid #ff5903;
    color: white;
 }
+
+.product-section .btn-box{
+   display: flex;
+   justify-content: center;
+   margin-top: 45px;
+}
+.product-section .btn-box a{
+   display: inline-block;
+   padding: 10px 40px;
+   background-color: #ff5903;
+   border: 2px solid #ff5903;
+   color: white;
+   transition: all 0.3s ;
+}
+
+.product-section .btn-box a:hover{
+   background-color: transparent;
+   color: #ff5903;
+}
+
+.heading-container h2 span{
+   color: #ff5903;
+}
+
+.subscribe-section{
+   text-align: center;
+
+}
+
+.subscribe-section .box{
+   background-color: #002c3e;
+   padding:100px 45px ;
+}
+.subscribe-section .subscribe-form .heading-container h3{
+   position: relative;
+   color: white;
+   margin-bottom: 15px;
+   font-size: 2.5rem;
+   font-weight: bold;
+}
+.subscribe-section .subscribe-form  p{
+   color: white;
+}
+.subscribe-section .subscribe-form form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.subscribe-section .subscribe-form form input{
+   width: 100%;
+   height: 60px;
+   border: none;
+   border-radius: 90px;
+   outline: none;
+   padding: 5px 25px;
+   background-color: white;
+   margin-top: 15px;
+   text-align: left;
+}
+
+.subscribe-section .subscribe-form form button{
+   display:inline-block ;
+   padding: 10px 45px;
+   background-color: #ff5903;
+   border: 2px solid #ff5903;
+   color: white;
+   cursor: pointer;
+   border-radius: 35px;
+   transition: all 0.5s;
+   text-transform: uppercase;
+   margin-top: 35px;
+   font-weight: 600;
+   width:100%;
+   max-width: 285px;
+}
+
+.subscribe-section .subscribe-form form button:hover{
+   background-color: transparent;
+   color: white;
+   border-color: white;
+}
